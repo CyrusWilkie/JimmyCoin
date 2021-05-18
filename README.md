@@ -20,6 +20,11 @@ My basic goals for this project:
 
 #### Transaction Formats
 
+Each transaction will consist of an input, transfer amount, output and signature. An input will be the wallet address of the sender alongside their public key, the transfer amount will be a positive integer for simplicity and the ouput will be the wallet address of the recipient. Below are the protocols cryptographic algorithms used for each aspect of payment.
+
+- Wallet Addresses: SHA256 Hash of the wallet's public key
+- Wallet keypairs:
+
 #### Block Format
 
 #### Mining Algorithm
