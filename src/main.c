@@ -1,5 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "wallet.h"
+#include "node.h"
+#include "miner.h"
 
 /*
    $$$$$\ $$\                                        $$$$$$\            $$\           
